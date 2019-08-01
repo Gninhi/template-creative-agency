@@ -1,0 +1,7 @@
+a.rs-button {
+  border-radius: 8px;
+  background-color: #669ffa;
+}
+a.rs-button:hover {
+  background-color: #5493f7;
+}
