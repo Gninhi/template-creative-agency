@@ -8,12 +8,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-<<<<<<< HEAD
 import { NavbarDefaultComponent } from './components/navbar-default/navbar-default.component';
-import { NavbarFixedComponent } from './components/navbar-fixed/navbar-fixed.component';
-=======
+import { WhatWeOfferComponent } from './components/what-we-offer/what-we-offer.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
->>>>>>> b299e475773670d183aa3c8b578f6a52bc2c0cc9
 
 @NgModule({
   declarations: [
@@ -21,12 +18,9 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     HomeComponent,
     FooterComponent,
     HeaderComponent,
-<<<<<<< HEAD
-    NavbarDefaultComponent,
-    NavbarFixedComponent
-=======
-    WelcomeComponent
->>>>>>> b299e475773670d183aa3c8b578f6a52bc2c0cc9
+    WelcomeComponent,
+    WhatWeOfferComponent,
+    NavbarDefaultComponent
   ],
   imports: [
     BrowserModule,
