@@ -1,0 +1,17 @@
+div.card{
+    border: 1px solid rgba(214, 214, 214, .4) !important;
+    
+    background-position: 100% 0;
+      background-size: 200% 100%;
+      transition: all .18s ease-in;
+      
+  }
+  div.card:hover{
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #000 50%,
+    #000);
+    background-position: 0 0;
+    h5.card-title{ color: #fff; }
+  }
