@@ -1,2 +1,5 @@
 <app-header></app-header>
 <app-footer></app-footer>
+<div id="navbar-fixed" [ngClass]="isVisible === true ? 'w-100' : 'w-100 d-none'" (scroll)="onWindowScroll($event);">
+    <app-navbar-default></app-navbar-default>
+</div>
