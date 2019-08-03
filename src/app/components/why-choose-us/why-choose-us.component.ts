@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhyChooseUsComponent implements OnInit {
 
+  images = [1, 2, 3].map(() => `https://picsum.photos/720/360?random&t=${Math.random()}`);
+
   constructor() { }
 
   ngOnInit() {

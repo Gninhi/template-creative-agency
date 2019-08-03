@@ -1,3 +1,47 @@
-<p>
-  why-choose-us works!
-</p>
+<div class="container-fluid py-5">
+  <div class="row justify-content-center px-md-5 py-md-5">
+    <div class="col-12 col-md-6">
+      <h2 class="mb-5">Why Choose Us</h2>
+      <p class="text-muted">Sed commodo id tortor quis ultricies. Integer nec urna odio. Aliquam maximus nibh id purus malesuada dignissim. Duis in augue neque. Curabitur sagittis tempor consequat. Nam at ante ut libero egestas fringilla. Sed venenatis odio eget vehicula scelerisque. Praesent aliquet ex vitae elementum faucibus.</p>
+      <ul class="text-muted">
+        <li><i class="material-icons text-primary">check_circle</i> Nullam vehicula feugiat nisi ac malesuada.</li>
+        <li><i class="material-icons text-primary">check_circle</i> Aliquam nec nisi interdum, scelerisque nunc eu.</li>
+        <li><i class="material-icons text-primary">check_circle</i> Duis convallis, metus a facilisis tempor.</li>
+        <li><i class="material-icons text-primary">check_circle</i> Proin maximus quis lectus sit amet lacinia.</li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-6">
+
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[2]" alt="Random third slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+
+    </div>
+  </div>
+</div>
