@@ -15,6 +15,7 @@ import { NavbarDefaultComponent } from './components/navbar-default/navbar-defau
 import { WhatWeOfferComponent } from './components/what-we-offer/what-we-offer.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
+import { StatsComponent } from './components/stats/stats.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.c
     WelcomeComponent,
     WhatWeOfferComponent,
     NavbarDefaultComponent,
-    WhyChooseUsComponent
+    WhyChooseUsComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,
